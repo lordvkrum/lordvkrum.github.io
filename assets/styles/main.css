@@ -1,0 +1,131 @@
+body {
+	padding: 30px;
+	background: #D4D7DB;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ui.grid.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.profile-wrapper {
+	color: #FFFFFF;
+}
+
+.ui.segment.profile-container {
+	text-align: center;
+	background: #8B9CB0;
+}
+
+.ui.segment.profile-container .profile {
+	margin-bottom: 15px;
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+}
+
+.ui.segment.profile-container .name {
+	font-size: 32px;
+	font-weight: 900;
+	line-height: 1;
+	margin-top: 0;
+}
+
+.ui.segment.profile-container .description {
+	color: rgba(255, 255, 255, 0.6);
+	margin-top: 0;
+}
+
+.ui.segment.container-block {
+	background: #AAB6C5;
+	padding: 1em 30px;
+	color: #FFFFFF;
+}
+
+.ui.segment.container-block .container-block-title {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.ui.segment.container-block .ui.list {
+	word-break: break-all;
+}
+
+.ui.segment.container-block .ui.list .item {
+	margin-bottom: 15px;
+}
+
+.ui.segment.container-block a {
+	color: #FFFFFF;
+}
+
+.ui.segment.container-block a:hover {
+	text-decoration: underline;
+}
+
+.ui.segment.education-container .meta, .ui.segment.education-container a {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.ui.segment.languages-container .proficiency {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.ui.segment.column.main-wrapper {
+	padding: 40px;
+}
+
+.ui.segment.main-wrapper section {
+	margin-bottom: 40px;
+}
+
+.ui.segment.main-wrapper section .title .icon {
+	color: #FFFFFF;
+	background: #8B9CB0;
+	border-radius: 50%;
+	font-size: 16px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	position: relative;
+	top: -3px;
+	margin-right: 10px;
+}
+
+.ui.segment.main-wrapper .ui.list.skillset .item {
+	margin-bottom: 15px;
+}
+
+.experience-section .item {
+	margin-bottom: 30px;
+}
+
+.experience-section .item .meta {
+	margin-bottom: 15px;
+}
+
+.experience-section .item .job-title .role {
+	margin-bottom: 5px;
+}
+
+.experience-section .item .job-title .time,
+.experience-section .item .company {
+	color: #AAB6C5;
+}
+
+.experience-section .item a {
+	color: #000000;
+}
+
+.experience-section .item a:hover {
+	text-decoration: underline;
+}
+
+.experience-section .item .details a {
+	text-decoration: underline;
+}
